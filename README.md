@@ -1,18 +1,31 @@
-## Mô tả
-Ứng dụng này cho phép người dùng soạn thảo văn bản với các tính năng như thay đổi font chữ, kích thước, in đậm, in nghiêng, gạch chân, lưu và mở file.
+# 📝 Simple Text Editor (WinForms)
 
-## Tính năng
-- **Tạo văn bản mới**: Xóa nội dung hiện tại và tạo lại các giá trị mặc định như Font và Size.
-- **Mở tập tin**: Cho phép người dùng mở các tập tin văn bản (*.txt hoặc *.rtf) thông qua hộp thoại.
-- **Lưu văn bản**: Lưu nội dung văn bản hiện tại dưới định dạng *.rtf. Nếu là văn bản mới và chưa được lưu, hộp thoại lưu sẽ hiển thị.
-- **Định dạng văn bản**:
-  - **In đậm**: Thực hiện in đậm cho vùng văn bản được chọn.
-  - **In nghiêng**: Thực hiện in nghiêng cho vùng văn bản được chọn.
-  - **Gạch chân**: Thực hiện gạch chân cho vùng văn bản được chọn.
-- **ComboBox Font và Size**: Lựa chọn font chữ và kích thước chữ cho văn bản, mặc định là Tahoma, size 14.
+This application is a basic **text editor** built with **Windows Forms (C#)**. It provides rich text formatting features like changing fonts, bold/italic/underline styling, and saving/opening files in `.rtf` or `.txt` format.
 
-- ## Các điều khiển và công cụ được sử dụng
-- **RichTextBox**: Dùng để hiển thị và nhập nội dung văn bản.
-- **MenuStrip**: Tạo các menu "Hệ Thống" và "Định Dạng".
-- **ToolStrip**: Chứa các button và hình ảnh cho các chức năng nhanh.
-- **ComboBox**: Lựa chọn font chữ và kích thước cho văn bản.
+## ✨ Features
+
+### 🗂 File Management
+- **New Document**: Clears the editor and resets font and size to defaults (Tahoma, 14).
+- **Open File**: Open `.txt` or `.rtf` files using an Open File Dialog.
+- **Save File**: Save the current document as `.rtf`. If the file hasn't been saved before, a Save File Dialog will appear.
+
+### 🎨 Text Formatting
+- **Bold**: Applies bold styling to the selected text.
+- **Italic**: Applies italic styling to the selected text.
+- **Underline**: Applies underline styling to the selected text.
+- **Font Selection**: Use the Font ComboBox to select a font (default is Tahoma).
+- **Size Selection**: Use the Size ComboBox to select font size (default is 14).
+
+## 🛠 Controls & Tools Used
+
+- **RichTextBox**: Main text area for input and formatting.
+- **MenuStrip**: Contains menus like "System" and "Format".
+- **ToolStrip**: Provides quick-access buttons with icons for common actions.
+- **ComboBox**: Allows users to change font family and size.
+
+## 🚀 Getting Started
+
+1. Clone this repository.
+2. Open the solution in Visual Studio.
+3. Build and run the application.
+4. Start editing, formatting, and saving your text documents!
